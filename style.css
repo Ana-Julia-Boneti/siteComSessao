@@ -7,18 +7,65 @@
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.6;
-    background-color: rgba(177, 41, 41, 0.733);
-    color: rgba(165, 42, 42, 0.747);
+    background-color: rgb(136, 25, 25);
+    color: rgb(83, 13, 13);
 
 }
 
 .cabecalho{
     background-color: bisque;
-    color: rgba(220, 20, 60, 0.637);
+    color: rgb(83, 29, 29);
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
     padding: 12px 20px;
     border-radius: 5px;
+}
+
+.cabecalho-marca{
+    display:flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.cabecalho-imagem{
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cabecalho-subtitulo{
+    font-size: 14px;
+    color: rgb(133, 36, 36);
+}
+
+.cabecalho-titulo{
+    #nao quero mudar
+}
+
+.cabecalho-lista{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cabecalho-lista-item{
+    display: block;
+}
+
+.cabecalho a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    padding: 6px 8px;
+    border-radius: 4px;
 }
