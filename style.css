@@ -1,1 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.6;
+    background-color: rgba(177, 41, 41, 0.733);
+    color: rgba(165, 42, 42, 0.747);
+
+}
+
+.cabecalho{
+    background-color: bisque;
+    color: rgba(220, 20, 60, 0.637);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
