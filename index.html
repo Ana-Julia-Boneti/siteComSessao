@@ -1,31 +1,120 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Floricultura</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body id = "inicio">
+
+<body id="inicio">
     <header class="cabecalho">
         <div class="cabecalho-marca">
-            <img src="img/logo.png" alt="" class="cabecalho-imagem">
+            <img src="img/clara.png" alt="" class="cabecalho-imagem">
             <div>
                 <p class="cabecalho-subtitulo"> Flores</p>
                 <h1 class="cabecalho-titulo"> 🌹 Floricultura</h1>
             </div>
         </div>
+
         <nav>
             <ul class="cabecalho-lista">
-                <li class="cabecalho-lista-item"> <a href="#Buque" > 💐 Buquês</a></li>
-                <li class="cabecalho-lista-item"> <a href="#arranjos" > 🌹 Arranjos</a></li>
-                <li class="cabecalho-lista-item"> <a href="#contato" > Contato</a></li>
-               
+                <li class="cabecalho-lista-item"> <a href="#trigo"> 💐 Buquês</a></li>
+                <li class="cabecalho-lista-item"> <a href="#soja"> 🌹 Arranjos</a></li>
+                <li class="cabecalho-lista-item"> <a href="#contato"> Contato</a></li>
+
             </ul>
         </nav>
-        <button class="botao-tema" id="botao-tema" type=" button"> tema🌹</button>
+        <button class="botao-tema" id="botao-tema" type=" button"> tema🌙​</button>
 
     </header>
-    
+    <section class="descricao" id="trigo">
+        <h2>Buquês</h2>
+    </section>
+
+    <section class="secao">
+        <div class="texto">
+            <p>Na Floricultura Naju, acreditamos que algumas emoções merecem ser eternizadas. Um pedido de desculpas,
+                uma declaração de amor, uma comemoração ou simplesmente a vontade de tornar o dia de alguém mais
+                especial — para cada sentimento, existe uma flor capaz de falar por você. Nossa floricultura nasceu do
+                desejo de transformar flores em experiências, criando buquês e arranjos cuidadosamente pensados, onde
+                cada detalhe transmite beleza, delicadeza e sofisticação.</p>
+            <p>Para nós, flores são muito mais do que presentes: são sentimentos, histórias e momentos que permanecem.
+                Por isso, escolhemos cada flor e cada composição com carinho, buscando transformar cada entrega em uma
+                lembrança inesquecível. Na Floricultura Naju, você encontra uma forma elegante de expressar aquilo que
+                muitas vezes as palavras não conseguem dizer — porque flores que transformam momentos se tornam
+                lembranças que ficam.</p>
+        </div>
+
+        <div class="imagem">
+            <img src="img/lirios.webp" alt="Espigas de trigo">
+            <img src="img/rosas.webp" alt="Plantação de trigo">
+        </div>
+    </section>
+
+    <!-- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx -->
+    <section class="descricao" id="soja">
+        <h2>Arranjos</h2>
+    </section>
+
+    <section class="secao">
+        <div class="imagem">
+            <img src="img/arranjo1.jpg" alt="Espigas de trigo">
+            <img src="img/arranjo2.jpg" alt="Plantação de trigo">
+        </div>
+        <div class="texto">
+            <p>Na Floricultura Naju, cada arranjo é criado para transformar flores em verdadeiras experiências.
+                Selecionamos cuidadosamente cada espécie, cor e detalhe para compor combinações elegantes e harmoniosas,
+                perfeitas para decorar ambientes ou presentear alguém especial. Do clássico ao sofisticado, nossos
+                arranjos são preparados com carinho para que cada composição tenha sua própria personalidade.</p>
+            <p>Mais do que uma combinação de flores, criamos momentos que podem ser vistos, sentidos e lembrados. Seja
+                para celebrar uma conquista, demonstrar carinho ou simplesmente surpreender alguém, nossos arranjos
+                levam beleza e significado em cada detalhe. Na Naju, acreditamos que um arranjo bem escolhido pode
+                transformar um espaço e tornar qualquer ocasião ainda mais especial. 🌹✨</p>
+        </div>
+    </section>
+
+
+    <!-- HTML SECAO FORMULARIO -->
+
+    <section class="fale-conosco" id="contato">
+        <h2>Contato</h2>
+        <p>Preencha os campos abaixo para entrar em contato.</p>
+
+        <form id="formulario-contato" action="https://formsubmit.co/ajax/vladismara@gmail.com&quot; method=" post">
+            <input type="hidden" name="_subject" value="Nova mensagem do site Trigo e Soja">
+            <input type="hidden" name="_template" value="table">
+
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="Nome" placeholder="Digite seu nome completo" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="Telefone" placeholder="(99) 9 9 999-9999" maxlength="16" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="Mensagem" rows="6" placeholder="Escreva sua mensagem aqui!"
+                required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <p id="resposta-formulario" class="aviso-formulario" aria-live="polite"></p>
+    </section>
+
+    <footer id="fim">
+        <div class="testo">
+            <p><strong>
+                    Desenvolvido por:
+                </strong> <em> Ana Volgue</em> <br>
+                WhatsApp: (43) 9 9999-8888 | ana.volgue@gmail.com
+            </p>
+        </div>
+    </footer>
+
 </body>
+
 </html>
