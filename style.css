@@ -387,7 +387,7 @@ footer p {
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 /*14/09 - TEMA ESCURO */
-
+/* 
 body.tema-escuro .cabecalho a {
 color: #FFFFFF;
 }
@@ -480,9 +480,107 @@ text-shadow: 2px 2px 5px #00000059;
 body.tema-escuro .voltar {
 box-shadow: 0 3px 9px #00000073;
 }
+ */
+
+/*14/09 - TEMA ESCURO */
+
+body.tema-escuro .cabecalho a {
+color: #F8E9D8;
+}
+body.tema-escuro {
+background-color: #211619;
+color: #F8E9D8;
+}
+
+body.tema-escuro .cabecalho {
+background-color: #352126;
+color: #F8E9D8;
+}
+body.tema-escuro .cabecalho-subtitulo {
+color: #E8C47A;
+}
+
+body.tema-escuro .cabecalho-titulo,
+body.tema-escuro .fale-conosco label {
+color: #F2B6C6;
+}
+body.tema-escuro .cabecalho a {
+color: #F8E9D8;
+}
+body.tema-escuro .cabecalho a:hover {
+background-color: #69404A;
+color: #F8E9D8;
+}
+body.tema-escuro .botao-tema,
+body.tema-escuro .fale-conosco button,
+body.tema-escuro .voltar {
+color: #FFFFFF;
+background-color: #C97889;
+}
+body.tema-escuro .botao-tema:hover,
+body.tema-escuro .fale-conosco button:hover,
+body.tema-escuro .voltar:hover {
+background-color: #E5A6B5;
+color: #211619;
+}
+body.tema-escuro .descricao h2,
+body.tema-escuro .fale-conosco h2,
+body.tema-escuro footer {
+color: #F8E9D8;
+}
+body.tema-escuro .secao,
+body.tema-escuro .fale-conosco {
+background-color: #302024;
+box-shadow: 8px 8px 18px #00000080;
+}
+
+body.tema-escuro .fale-conosco input,
+body.tema-escuro .fale-conosco textarea {
+border: 1px solid #69404A;
+background-color: #FFFFFF;
+color: #211619;
+}
+
+body.tema-escuro .fale-conosco input::placeholder,
+body.tema-escuro .fale-conosco textarea::placeholder,
+body.tema-escuro .fale-conosco .aviso-formulario {
+color: #CBD4BE;
+}
+
+body.tema-escuro .fale-conosco input:focus,
+body.tema-escuro .fale-conosco textarea:focus {
+outline: 2px solid #E8C47A;
+}
+
+body.tema-escuro .fale-conosco .sucesso {
+color: #8FD397;
+}
+
+body.tema-escuro .fale-conosco .erro {
+color: #E88474;
+}
+
+body.tema-escuro footer {
+background-color: #352126;
+}
+
+body.tema-escuro .fale-conosco button:disabled {
+background-color: #696064;
+color: #FFFFFF;
+}
+
+body.tema-escuro .descricao {
+text-shadow: 2px 2px 5px #00000080;
+}
+
+body.tema-escuro .voltar {
+box-shadow: 0 3px 9px #00000099;
+}
 
 
-/* responsividade */
+
+
+ /* responsividade */
 @media (max-width: 800px) {
     body {
         padding: 6px;
